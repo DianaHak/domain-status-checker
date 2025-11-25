@@ -18,7 +18,6 @@ h1 {
 }
 
 textarea {
-    width: 100%;
     padding: 10px;
     border-radius: 6px;
     border: 1px solid #ddd;
@@ -58,7 +57,7 @@ td {
     border: 1px solid #eee;
     padding: 8px;
     text-align: left;
-    font-size: 13px
+    font-size: 16px;
 }
 
 .progress {
@@ -66,8 +65,21 @@ td {
     font-size: 13px;
     color: #333
 }
-
-
+.table_numbering{
+    font-size: 13px;
+    width: 2%;
+}
+.table_links{
+    color: gray;
+    word-break: break-all;
+    width: 30%;
+}
+.domain_names{
+    width: 10%;
+}
+.dsc-reachable-cell,.status{
+    width: 5%;
+}
 @media(max-width:640px) {
     .row {
         flex-direction: column;
